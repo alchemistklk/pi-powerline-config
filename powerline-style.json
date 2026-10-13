@@ -1,0 +1,47 @@
+{
+  "colors": {
+    "border": "#74839B",
+    "model": "#DDA6D8",
+    "thinking": "#D0D3DB",
+    "folder": "#F0F2F7",
+    "branch": "#F2D37D",
+    "context": "#C4B5FD",
+    "tokens": "#8DDFC3",
+    "status": "#C3CAD8",
+    "session": "#8DCBFF",
+    "pr": "#FFB899",
+    "prDraft": "#B0B0B0",
+    "prMerged": "#C586C0",
+    "ciPass": "#89D185",
+    "ciFail": "#F48771",
+    "ciPending": "#E2C08D",
+    "ciUnknown": "#B0B0B0",
+    "prStale": "#B0B0B0"
+  },
+  "icons": {
+    "model": "",
+    "folder": "",
+    "branch": "",
+    "context": "󰆏",
+    "cache": "",
+    "mcp": "󰒋",
+    "session": "󰦨",
+    "pr": ""
+  },
+  "show": {
+    "breadcrumbFolder": false,
+    "thinking": true,
+    "folder": true,
+    "branch": true,
+    "context": true,
+    "tokens": true,
+    "session": true,
+    "pr": true,
+    "prDetails": false
+  },
+  "hiddenStatuses": [
+    "lsp"
+  ],
+  "separator": " │ ",
+  "sessionPlacement": "editor"
+}

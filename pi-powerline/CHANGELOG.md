@@ -1,0 +1,242 @@
+## [0.11.1](https://github.com/jwu/pi-powerline/compare/v0.11.0...v0.11.1) (2026-10-02)
+
+
+### Bug Fixes
+
+* **footer:** repaint when the MCP tool list grows ([db05c6b](https://github.com/jwu/pi-powerline/commit/db05c6b69c74f8ac5e24c7dda5c0d6ad7f6a8e19))
+
+# [0.11.0](https://github.com/jwu/pi-powerline/compare/v0.10.0...v0.11.0) (2026-10-02)
+
+
+### Features
+
+* **footer:** count built-in MCP servers when nothing publishes a status ([c746bb6](https://github.com/jwu/pi-powerline/commit/c746bb6fbf280cf74b8ef59c3f721bab25528df1))
+
+# [0.10.0](https://github.com/jwu/pi-powerline/compare/v0.9.1...v0.10.0) (2026-09-18)
+
+
+### Features
+
+* **footer:** show pi-mcp status on the stats line right side ([86c4c7a](https://github.com/jwu/pi-powerline/commit/86c4c7ab0019e6569610daf3759f5e00c77fb5d7))
+
+## [0.9.1](https://github.com/jwu/pi-powerline/compare/v0.9.0...v0.9.1) (2026-08-07)
+
+
+### Bug Fixes
+
+* **footer:** support max thinking level color ([870fb3a](https://github.com/jwu/pi-powerline/commit/870fb3a4d38d47de6529643b55b41e4d4a09f5f7))
+
+# [0.9.0](https://github.com/jwu/pi-powerline/compare/v0.8.1...v0.9.0) (2026-08-07)
+
+
+### Features
+
+* adapt to pi 0.84 ([f0e2991](https://github.com/jwu/pi-powerline/commit/f0e299145e57ad2d3b02c391cd481d84eddc52ff))
+
+## [0.8.1](https://github.com/jwu/pi-powerline/compare/v0.8.0...v0.8.1) (2026-06-28)
+
+
+### Bug Fixes
+
+* **editor:** prevent over-wide lines in narrow terminals ([12c8ced](https://github.com/jwu/pi-powerline/commit/12c8ced96573d76480d52ffafc7addd6516bac66))
+
+# [0.8.0](https://github.com/jwu/pi-powerline/compare/v0.7.1...v0.8.0) (2026-06-09)
+
+
+### Features
+
+* **footer:** show cache hit rate ([e2c5535](https://github.com/jwu/pi-powerline/commit/e2c5535577792432e7007d504cfb1f9a37d86562))
+
+## [0.7.1](https://github.com/jwu/pi-powerline/compare/v0.7.0...v0.7.1) (2026-05-27)
+
+
+### Bug Fixes
+
+* **header:** resolve user-scoped npm package dir with npm/ prefix ([5e5bb18](https://github.com/jwu/pi-powerline/commit/5e5bb189602e68488d57cc211a806f6c5a6d6a1b))
+
+# [0.7.0](https://github.com/jwu/pi-powerline/compare/v0.6.3...v0.7.0) (2026-05-24)
+
+
+### Bug Fixes
+
+* **auto-format:** update pi import package ([3d67f66](https://github.com/jwu/pi-powerline/commit/3d67f6650be48de18b90f8c4582609f691e60cd3))
+
+
+### Features
+
+* **header:** tag path packages distinctly ([471c409](https://github.com/jwu/pi-powerline/commit/471c409457de296ff94a96812e9706938981e5aa))
+
+## [0.6.3](https://github.com/jwu/pi-powerline/compare/v0.6.2...v0.6.3) (2026-05-24)
+
+
+### Bug Fixes
+
+* show auto-discovered extensions in header ([e2b187f](https://github.com/jwu/pi-powerline/commit/e2b187fdcf840c741be3be3bf8ad4c95612e9fc2))
+
+## [0.6.2](https://github.com/jwu/pi-powerline/compare/v0.6.1...v0.6.2) (2026-05-22)
+
+
+### Bug Fixes
+
+* simplify nerd font detection ([52dacaf](https://github.com/jwu/pi-powerline/commit/52dacaf693161456a8acfcc0da5a6abc98330ffc))
+
+## [0.6.1](https://github.com/jwu/pi-powerline/compare/v0.6.0...v0.6.1) (2026-05-15)
+
+
+### Bug Fixes
+
+* **header:** dedupe extension entries ([2b2db6e](https://github.com/jwu/pi-powerline/commit/2b2db6e4ed2973a50d145205a3884726591a2663))
+
+# [0.6.0](https://github.com/jwu/pi-powerline/compare/v0.5.1...v0.6.0) (2026-05-15)
+
+
+### Bug Fixes
+
+* **header:** add missing return in resolvePackageDir npm branch, add tests ([823d4eb](https://github.com/jwu/pi-powerline/commit/823d4ebec8d502c5dd3e07cb9a1c954d62b086bc))
+* **header:** check .pi/npm/node_modules for project-scoped npm packages ([ad2d8d6](https://github.com/jwu/pi-powerline/commit/ad2d8d6a5694ff5371813fcf9e9eaa69e12e3bdc))
+* **header:** resolve npm root via pi-coding-agent instead of pi-subagents ([0ba1051](https://github.com/jwu/pi-powerline/commit/0ba1051a231ad98c4a964658ec0c2a45307cc4c9))
+* **header:** use NVM_DIR/env probe instead of createRequire for npm root ([3081f77](https://github.com/jwu/pi-powerline/commit/3081f77dd49117d831433857c7fd91f89fa1e8c1))
+
+
+### Features
+
+* **header:** add packages and extensions sections, refactor to config-based discovery ([769465d](https://github.com/jwu/pi-powerline/commit/769465d0798548ff7e6098631739c9f5178fc938))
+* **header:** annotate packages with [project]/[global] scope tag ([d451e96](https://github.com/jwu/pi-powerline/commit/d451e96222b1a88f497b07b19fbc386344879417))
+
+## [0.5.1](https://github.com/jwu/pi-powerline/compare/v0.5.0...v0.5.1) (2026-05-12)
+
+### Code Refactoring
+
+* migrate peer deps from @mariozechner to @earendil-works scope ([3d7de22](https://github.com/jwu/pi-powerline/commit/3d7de22))
+
+# [0.5.0](https://github.com/jwu/pi-powerline/compare/v0.4.2...v0.5.0) (2026-05-12)
+
+
+### Features
+
+* show active tools in header info ([bcbc9a3](https://github.com/jwu/pi-powerline/commit/bcbc9a3d41b12ff86c252860cd941e4370d20108))
+
+## [0.4.2](https://github.com/jwu/pi-powerline/compare/v0.4.1...v0.4.2) (2026-05-08)
+
+
+### Bug Fixes
+
+* improve header session status ([58d644d](https://github.com/jwu/pi-powerline/commit/58d644d6dafe0c83e0b83eb6c451705c51a5e2d3))
+
+## [0.4.1](https://github.com/jwu/pi-powerline/compare/v0.4.0...v0.4.1) (2026-05-08)
+
+
+### Bug Fixes
+
+* enable header info by default ([bc229be](https://github.com/jwu/pi-powerline/commit/bc229befa2f552c89249bc5c110b5dde13c306c3))
+
+# [0.4.0](https://github.com/jwu/pi-powerline/compare/v0.3.1...v0.4.0) (2026-05-08)
+
+
+### Bug Fixes
+
+* respect quiet startup for header info ([fb243f5](https://github.com/jwu/pi-powerline/commit/fb243f5502f3a866ba971a243f7236f02a9cd96a))
+
+
+### Features
+
+* add optional header info ([40a2a29](https://github.com/jwu/pi-powerline/commit/40a2a29d758459962656f098da254939f537b87f))
+* center header status ([963e6ef](https://github.com/jwu/pi-powerline/commit/963e6ef0b0fc30fe896d6356734fcd23d1ae4ff5))
+
+## [0.3.1](https://github.com/jwu/pi-powerline/compare/v0.3.0...v0.3.1) (2026-05-06)
+
+
+### Bug Fixes
+
+* guard prepare script to skip simple-git-hooks outside git repos ([c26bcad](https://github.com/jwu/pi-powerline/commit/c26bcad428ea0a855e9725abb0d269a5f975d09f))
+
+# [0.3.0](https://github.com/jwu/pi-powerline/compare/v0.2.3...v0.3.0) (2026-05-06)
+
+
+### Bug Fixes
+
+* remove npm provenance (requires CI, not supported with --no-ci) ([d9e9005](https://github.com/jwu/pi-powerline/commit/d9e90055df72e9d3b991ba48ecd2acbbd3af998b))
+
+
+### Features
+
+* switch from git-cliff to semantic-release, add commitlint, strengthen TUI tests ([4cec86e](https://github.com/jwu/pi-powerline/commit/4cec86e61666436ef1cbc0a1cab3426408a0ce70))
+
+## [0.2.3] - 2026-05-06
+
+### 🐛 Bug Fixes
+
+- Husky command not found when installed as dependency
+
+### 📚 Documentation
+
+- Credit pi-powerline-footer by nicobailon
+
+### ⚙️ Miscellaneous Tasks
+
+- Update changelog
+## [0.2.2] - 2026-05-05
+
+### 🐛 Bug Fixes
+
+- Use GitHub raw URL for screenshot in README
+
+### ⚙️ Miscellaneous Tasks
+
+- Add homepage and repository fields to package.json
+## [0.2.1] - 2026-05-05
+
+### ⚙️ Miscellaneous Tasks
+
+- Add git-cliff changelog
+- Bump version to 0.2.1
+## [0.2.0] - 2026-05-05
+
+### 🚀 Features
+
+- Add powerline master switch, simplify README, use local assets
+
+### ⚙️ Miscellaneous Tasks
+
+- Bump version to 0.2.0
+## [0.1.0] - 2026-05-03
+
+### 🚀 Features
+
+- Powerline UI extensions with auto-format and pre-commit hooks
+- Add /powerline toggle command for editor, footer, header
+- Add powerline status widget above editor
+- /powerline commands take effect immediately via events bus
+
+### 🐛 Bug Fixes
+
+- EditorTheme type mismatch, add diagnostics checks
+
+### 💼 Other
+
+- Use pi.getThinkingLevel() and pi.on(thinking_level_select) for think level
+- Mirror built-in footer layout with full stats, context usage, thinking level
+- Drop redundant pwd line (already shown by widget)
+- Show only think level on right side, styled like widget
+- Add Nerd Font think icon to right side
+- Real-time token stats via message_update live usage fusion
+- Show (auto) marker when auto-compact is enabled
+- Move context usage to front of stats line, preserve per-segment coloring
+- Restore original dim-wrapping, keep context-first ordering only
+- Remove think level display (now in footer), show only model → folder
+- Truncate with ellipsis instead of wrapping to next line
+- Drop think: prefix from level label in stats line
+- Embed widget info (model + folder) in top border line
+
+### 🚜 Refactor
+
+- Unified settings model with breadcrumb/footer/header config keys
+- Extract shared breadcrumb helpers into breadcrumb.ts
+
+### 📚 Documentation
+
+- Update README to reflect current features, settings, and commands
+
+### ⚙️ Miscellaneous Tasks
+
+- Prepare package.json for pi package publishing

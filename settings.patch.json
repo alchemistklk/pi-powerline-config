@@ -1,0 +1,8 @@
+{
+  "powerline": true,
+  "breadcrumb": "inner",
+  "footer": true,
+  "header": false,
+  "header-info": false,
+  "theme": "vscode-dark-modern"
+}

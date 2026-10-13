@@ -1,0 +1,49 @@
+{
+  "name": "pi-powerline",
+  "version": "0.11.1-local.20261013",
+  "description": "Powerline-style UI extensions for pi coding agent (custom editor, breadcrumb, footer, header)",
+  "homepage": "https://github.com/alchemistklk/pi-powerline-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alchemistklk/pi-powerline-config.git",
+    "directory": "pi-powerline"
+  },
+  "bugs": {
+    "url": "https://github.com/alchemistklk/pi-powerline-config/issues"
+  },
+  "type": "module",
+  "files": [
+    "extensions/",
+    "README.md",
+    "package.json",
+    "CHANGELOG.md",
+    "LICENSE",
+    "assets/"
+  ],
+  "keywords": [
+    "pi-package",
+    "pi",
+    "coding-agent",
+    "powerline",
+    "extension"
+  ],
+  "author": "jwu",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ],
+    "image": "https://raw.githubusercontent.com/jwu/pi-powerline/refs/heads/main/assets/pi-powerline.png"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": ">=0.84.0",
+    "@earendil-works/pi-coding-agent": ">=0.84.0",
+    "@earendil-works/pi-tui": ">=0.84.0"
+  }
+}
